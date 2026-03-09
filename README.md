@@ -60,5 +60,5 @@ The raw dataset contained several "real-world" data quality issues that were res
     pip install -r requirements.txt
 
 3. **Run the app:**
-  ```bash
-  streamlit run app.py
+   ```bash
+   streamlit run app.py
