@@ -4,6 +4,8 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+df = pd.read_csv('samsung_global_sales_dataset.csv')
+
 # 1. Page Config (Sets the "Business" vibe)
 st.set_page_config(page_title="Samsung Global Sales Intelligence", layout="wide")
 
