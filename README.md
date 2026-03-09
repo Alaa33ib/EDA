@@ -46,7 +46,7 @@ The raw dataset contained several "real-world" data quality issues that were res
 * **Data Wrangling:** Pandas, NumPy
 * **Visualization:** Matplotlib, Seaborn, Plotly Express
 * **Dashboarding:** Streamlit
-* **Environment:** Google Colab / Jupyter Notebook
+* **Environment:** Google Colab / Visual Studio Code
 
 ---
 
