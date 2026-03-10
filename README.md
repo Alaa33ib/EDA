@@ -4,6 +4,8 @@
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 📊 Interactive Dashboard (Streamlit)
+https://samsung-sales-dashboard.streamlit.app/
 ## 📌 Project Overview
 This project performs a comprehensive **Exploratory Data Analysis (EDA)** on a synthetic dataset of **15,500 Samsung Global Sales transactions** (2021–2024). The goal was to transform a messy, high-dimensional sales ledger into an interactive **Business Intelligence Dashboard** that provides actionable insights for regional managers and product strategists.
 
