@@ -24,15 +24,15 @@ This project performs a comprehensive **Exploratory Data Analysis (EDA)** on a s
 
 ### 1. Global Revenue Distribution
 Interactive Choropleth map identifying high-performing markets and expansion opportunities.
-> *[Insert Screenshot of your Plotly Map here]*
+<img width="1207" height="602" alt="image" src="https://github.com/user-attachments/assets/89d11ac5-bf6d-44f9-af37-4282bdc1371e" />
 
-### 2. Product Seasonality Heatmap
-A matrix view showing which quarters see the highest demand for specific product categories (e.g., Q4 peaks for Smart TVs).
-> *[Insert Screenshot of your Seaborn Heatmap here]*
+### 2. Seasonality Heatmap
+A matrix view showing which quarters see the highest revenue.
+<img width="1125" height="618" alt="image" src="https://github.com/user-attachments/assets/7fdb82ca-f2c4-46a7-b7c5-94da909e5e12" />
 
 ### 3. Galaxy Z Series Deep Dive
 Analysis of the adoption of foldable technology (Flip vs. Fold) across different age groups and years.
-> *[Insert Screenshot of your Galaxy Z Histplot here]*
+<img width="682" height="526" alt="image" src="https://github.com/user-attachments/assets/eeecd22f-b33c-45c1-824d-3ab4063f6242" />
 
 ---
 
