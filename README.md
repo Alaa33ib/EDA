@@ -42,7 +42,6 @@ The raw dataset contained several "real-world" data quality issues that were res
     * `storage`: Filled using the **Mode** per product name (e.g., Galaxy S24 → 256GB).
     * `previous_device_os`: Categorized as **'Unknown'** to preserve data for customer loyalty analysis.
     * `customer_rating`: Filled using the **Median** to avoid skewing sentiment analysis.
-* **Outlier Strategy:** Instead of deleting high-value "Success Spikes" (e.g., B2B bulk orders), I used **Winsorization** and **Binary Flagging** to highlight these VIP transactions for the business users.
 
 ---
 
