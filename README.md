@@ -45,6 +45,17 @@ The raw dataset contained several "real-world" data quality issues that were res
 
 ---
 
+🔮 Sales Forecasting: Prophet vs. Linear Baseline
+Linear Baseline: A "Straight Line" forecast. Means it captures basic growth but ignores holidays and launch-day spikes.
+
+Meta Prophet: A "Seasonal" forecast. Means it identifies Black Friday peaks and "Galaxy Unpacked" launch cycles for much higher accuracy.
+
+Comparison: Linear models under-predict during holidays, while Prophet follows the "waves" of the tech market.
+
+Strategic Value: Allows managers to stock inventory based on seasonal reality rather than just average growth.
+
+---
+
 ## 💻 Tech Stack
 * **Language:** Python 3.x
 * **Data Wrangling:** Pandas, NumPy
