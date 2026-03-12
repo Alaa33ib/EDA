@@ -499,11 +499,14 @@ with tab3:
 # TAB 4 — Insights
 # ─────────────────────────────────────────────────────────────────────────────       
 with tab4: # Strategic Intelligence Briefing
+    # Load Bootstrap Icons Library
+    st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">', unsafe_allow_html=True)
+
     st.markdown("## Strategic Intelligence Briefing")
     st.markdown("---")
 
     # --- Insight 1: Pricing ---
-    st.markdown("### 💰 1. Pricing & Profit Optimization")
+    st.markdown('### <i class="bi bi-tag-fill" style="color: #5b9ef7;"></i>  1. Pricing & Profit Optimization', unsafe_allow_html=True)
     c1, c2 = st.columns([1, 3])
     c1.metric("Optimal Discount", "5% – 12%", "Sweet Spot")
     c2.markdown("""
@@ -512,7 +515,7 @@ with tab4: # Strategic Intelligence Briefing
     st.markdown("---")
 
     # --- Insight 2: Competition ---
-    st.markdown("### 🔄 2. Competitive Conquest")
+    st.markdown('### <i class="bi bi-arrow-left-right" style="color: #5b9ef7;"></i>  2. Competitive Conquest', unsafe_allow_html=True)
     c3, c4 = st.columns([1, 3])
     c3.metric("Top Acquisition", "Galaxy Z", "iOS Switchers")
     c4.markdown("""
@@ -521,7 +524,7 @@ with tab4: # Strategic Intelligence Briefing
     st.markdown("---")
 
     # --- Insight 3: Regional Strategy ---
-    st.markdown("### 🌍 3. Regional Power Markets")
+    st.markdown('### <i class="bi bi-globe-americas" style="color: #5b9ef7;"></i>  3. Regional Power Markets', unsafe_allow_html=True)
     c5, c6 = st.columns([1, 3])
     c5.metric("High ARPU Region", "Middle East", "512GB+ Focus")
     c6.markdown("""
@@ -530,7 +533,8 @@ with tab4: # Strategic Intelligence Briefing
     st.markdown("---")
 
     # --- Insight 4: Returns & Risk ---
-    st.markdown("### ⚠️ 4. Channel Risk Assessment")
+    # Using a Warning Orange for this one
+    st.markdown('### <i class="bi bi-exclamation-octagon-fill" style="color: #f7d85b;"></i>  4. Channel Risk Assessment', unsafe_allow_html=True)
     c7, c8 = st.columns([1, 3])
     c7.metric("Return Rate Gap", "+3.5%", "Partner Sites", delta_color="inverse")
     c8.markdown("""
@@ -539,7 +543,7 @@ with tab4: # Strategic Intelligence Briefing
     st.markdown("---")
 
     # --- Insight 5: Tech Standards ---
-    st.markdown("### 📶 5. The 5G Saturation Point")
+    st.markdown('### <i class="bi bi-reception-4" style="color: #5b9ef7;"></i>  5. The 5G Saturation Point', unsafe_allow_html=True)
     c9, c10 = st.columns([1, 3])
     c9.metric("5G Market Share", "85%+", "Standardized")
     c10.markdown("""
@@ -548,7 +552,7 @@ with tab4: # Strategic Intelligence Briefing
     st.markdown("---")
 
     # --- Insight 6: Forecasting ---
-    st.markdown("### 🔮 6. Predictive Inventory Logic")
+    st.markdown('### <i class="bi bi-graph-up-arrow" style="color: #5b9ef7;"></i>  6. Predictive Inventory Logic', unsafe_allow_html=True)
     c11, c12 = st.columns([1, 3])
     c11.metric("Prophet Accuracy", "92%", "+12% vs Linear")
     c12.markdown("""
@@ -557,7 +561,8 @@ with tab4: # Strategic Intelligence Briefing
     st.markdown("---")
 
     # --- Insight 7: Data Integrity ---
-    st.markdown("### 🧬 7. Data Engineering Foundation")
+    # Using a Success Green for this one
+    st.markdown('### <i class="bi bi-database-check" style="color: #5bf7c0;"></i>  7. Data Engineering Foundation', unsafe_allow_html=True)
     c13, c14 = st.columns([1, 3])
     c13.metric("Data Quality", "High", "Imputed")
     c14.markdown("""
