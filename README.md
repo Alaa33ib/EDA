@@ -8,7 +8,7 @@
 https://samsung-sales-dashboard.streamlit.app/
 
 ## 📈 Dataset Link (Kaggle)
-(https://www.kaggle.com/datasets/ashyou09/samsung-global-product-sales-dataset)
+https://www.kaggle.com/datasets/ashyou09/samsung-global-product-sales-dataset
 ## 📌 Project Overview
 This project performs a comprehensive **Exploratory Data Analysis (EDA)** on a synthetic dataset of **15,500 Samsung Global Sales transactions** (2021–2024). The goal was to transform a messy, high-dimensional sales ledger into an interactive **Business Intelligence Dashboard** that provides actionable insights for regional managers and product strategists.
 
